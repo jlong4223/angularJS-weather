@@ -8,3 +8,7 @@ This is an application created using AngularJS and the Open Weather Map API to a
 - html5
 - Bootstrap
 - Open Weather Map API
+
+### Final:
+
+[Click here](https://jlong4223.github.io/angularJS-weather/#/) to see the deployed app!
