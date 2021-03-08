@@ -1,6 +1,6 @@
 # AngularJS Weather Forecast SPA
 
-This is an application created using AngularJS and a Weather API that allows a user to search for the weather based on a city.
+This is an application created using AngularJS and the Open Weather Map API to allow a user to search for the weather based on an inputted city.
 
 ### Technologies Used:
 
