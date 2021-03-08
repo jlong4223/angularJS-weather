@@ -11,4 +11,6 @@ This is an application created using AngularJS and the Open Weather Map API to a
 
 ### Final:
 
-[Click here](https://jlong4223.github.io/angularJS-weather/#/) to see the deployed app!
+<!-- [Click here](https://jlong4223.github.io/angularJS-weather/#/) to see the deployed app! -->
+
+<!-- TODO add https to api url -->
