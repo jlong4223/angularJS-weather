@@ -59,4 +59,4 @@ weatherApp.controller("forecastController", [
   },
 ]);
 
-// api http://api.openweathermap.org/data/2.5/forecast?q=London,us&cnt=2&appid=5b3c5a41e420b342a7d2e498f5e3fd82
+// api https://api.openweathermap.org/data/2.5/forecast?q=London,us&cnt=2&appid=5b3c5a41e420b342a7d2e498f5e3fd82

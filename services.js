@@ -9,7 +9,7 @@ weatherApp.service("weatherService", [
     this.GetWeather = function (city, days, key) {
       // defining the API url as the resource
       let weatherAPI = $resource(
-        "http://api.openweathermap.org/data/2.5/forecast",
+        "https://api.openweathermap.org/data/2.5/forecast",
         { callback: "JSON_CALLBACK" },
         { get: { method: "JSONP" } }
       );
