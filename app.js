@@ -47,7 +47,7 @@ weatherApp.controller("forecastController", [
     $scope.city = cityService.city;
 
     // TODO have a ng-model that allows user to select day as well
-    $scope.days = $routeParams.days || 2;
+    $scope.days = $routeParams.days || "2";
 
     // defining the API url as the resource
     $scope.weatherAPI = $resource(
@@ -75,4 +75,4 @@ weatherApp.controller("forecastController", [
   },
 ]);
 
-// api http://api.openweathermap.org/data/2.5/forecast/daily?APPID=5b3c5a41e420b342a7d2e498f5e3fd82
+// api http://api.openweathermap.org/data/2.5/forecast?q=London,us&cnt=2&appid=5b3c5a41e420b342a7d2e498f5e3fd82
